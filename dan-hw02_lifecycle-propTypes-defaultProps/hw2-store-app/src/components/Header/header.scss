@@ -1,0 +1,40 @@
+@import "../../variables";
+
+.header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: $bgAccentColor;
+}
+
+.header-wrap {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr max-content max-content;
+  column-gap: 30px;
+  align-items: center;
+  padding: 5px 40px;
+}
+
+.header-favorite-wrap {
+  cursor: pointer;
+  position: relative;
+}
+.header-cart-wrap {
+  cursor: pointer;
+  position: relative;
+}
+.header-favorite--count {
+  color: $colorCountHeader;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+.header-cart--count {
+  color: $colorCountHeader;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(100%, -50%);
+}
