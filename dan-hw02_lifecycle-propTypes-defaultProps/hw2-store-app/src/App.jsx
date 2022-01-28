@@ -9,7 +9,6 @@ class App extends Component {
     this.state = {
       favoriteList: [],
       itemsCartList: [],
-      itemsCartLiset: []
     }
   }
 

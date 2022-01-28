@@ -8,7 +8,6 @@ class CardsList extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isFavorite: false,
             productsList: [],
             currentBtnCart: null,
             isOpened: false,
