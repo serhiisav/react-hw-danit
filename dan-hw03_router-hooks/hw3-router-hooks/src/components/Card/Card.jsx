@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from 'prop-types';
-import getNameBtnCart from './../../api/getNameBtnCart';
-import { Link } from "react-router-dom";
+import ButtonCard from "./ButtonCard";
+
 
 function Card(props) {
     const [isFavorite, setIsFavorite] = useState(false);
@@ -26,14 +26,6 @@ function Card(props) {
         classFavoriteItem = "favorite-card";
     };
 
-    const getBtnCard = () => {
-        if (cartList.includes(id)) {
-            return (<Link className="products-btn-cart btnView" to='/cart'>{getNameBtnCart(cartList, id)}</Link>);
-        } else {
-            return (<button onClick={() => onClickAddCart(id, title)} className="products-btn-cart">{getNameBtnCart(cartList, id)}</button>)
-        }
-    }
-
     return (
         <>
             <img src={url} alt={itemNumber} height="150" width="150" />
@@ -56,7 +48,7 @@ function Card(props) {
                 </div>
                 <span className="price-card">${price}</span>
             </div>
-            {getBtnCard()}
+            <ButtonCard className={'products'} cartList={cartList} id={id} title={title} onClickAddCart={onClickAddCart} />
         </>
     )
 }

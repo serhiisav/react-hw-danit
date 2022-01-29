@@ -61,11 +61,14 @@
 .favorite-btn-cart {
   @include btn-card();
   min-width: 180px;
-}
-.favorite-btnView-cart {
   align-self: end;
   justify-self: center;
-  text-decoration: none;
+  box-sizing: border-box;
+  &.btnView {
+    text-decoration: none;
+    text-align: center;
+    line-height: 22px;
+  }
 }
 
 .favorites-message {

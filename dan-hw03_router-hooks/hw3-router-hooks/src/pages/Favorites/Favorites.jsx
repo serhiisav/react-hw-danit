@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { getItemsFiltered } from "../../api/getItems";
 import './favorites.scss';
-import getNameBtnCart from './../../api/getNameBtnCart';
 import useOpenModal from "../../hooks/useOpenModal";
 import Modal from './../../components/Modal/Modal';
 import { Link } from "react-router-dom";
+import ButtonCard from "../../components/Card/ButtonCard";
 
 
 const Favorites = ({ favoriteList, cartList, changeFavorite, changeCartList }) => {
@@ -41,12 +41,7 @@ const Favorites = ({ favoriteList, cartList, changeFavorite, changeCartList }) =
                                                 <p className="item-number-card">{item.itemNumber}</p>
                                                 <span className="price-card">${item.price}</span>
                                             </div>
-                                            <Link className="favorite-btnView-cart" to={cartList.includes(item.id) ? '/cart' : ''}>
-                                                <button onClick={() => {
-                                                    addToCart(item.id, item.title)
-                                                }} className="favorite-btn-cart">{getNameBtnCart(cartList, item.id)}</button>
-                                            </Link>
-
+                                            <ButtonCard className={'favorite'} cartList={cartList} id={item.id} title={item.title} onClickAddCart={addToCart} />
                                         </div>
                                     </li>)
                                     ))
