@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "M18 FUEL™ with ONE-KEY™ Hammer Drill/Driver (Tool Only)",
+    "price": 219,
+    "url": "img/01_Hammer_Drill_2806.jpg",
+    "itemNumber": "2806-20",
+    "color": "red"
+  },
+  {
+    "id": 2,
+    "title": "M18 FUEL™ Dual Bevel Sliding Compound Miter Saw (Tool Only)",
+    "price": 699,
+    "url": "img/02_Miter_Saw_2739.jpg",
+    "itemNumber": "2739-20",
+    "color": "red"
+  },
+  {
+    "id": 3,
+    "title": "M18 FUEL™ 1-3/4” SDS Max Rotary Hammer w/ ONE KEY™ (Tool Only)",
+    "price": 749,
+    "url": "img/03_Rotary_Hammer_2718.jpg",
+    "itemNumber": "2718-20",
+    "color": "red"
+  },
+  {
+    "id": 4,
+    "title": "Milwaukee 2822-20 M18 FUEL 18V SAWZALL Li-Ion Reciprocating Saw W/ One-Key",
+    "price": 259,
+    "url": "img/04_Recip_Saw_2822.jpg",
+    "itemNumber": "2822-20",
+    "color": "red"
+  },
+  {
+    "id": 5,
+    "title": "Milwaukee 2880-20 M18 FUEL 4-1/2/in 5in Grinder Paddle Switch No-Lock - Bare Tool",
+    "price": 199,
+    "url": "img/05_Grinder_2880.jpg",
+    "itemNumber": "2880-20",
+    "color": "red"
+  },
+  {
+    "id": 6,
+    "title": "Milwaukee 2505-20 M12 FUEL 12V 4-in-1 Installation Drill/Driver -Bare Tool",
+    "price": 179,
+    "url": "img/06_Drill-Driver_2505.jpg",
+    "itemNumber": "2505-20",
+    "color": "red"
+  },
+  {
+    "id": 7,
+    "title": "Milwaukee 2723-20 M18 FUEL 18V Cordless Li-Ion Compact Router - Bare Tool",
+    "price": 199,
+    "url": "img/07_Compact_Router_2723.jpg",
+    "itemNumber": "2723-20",
+    "color": "red"
+  },
+  {
+    "id": 8,
+    "title": "Milwaukee 2746-20 M18 FUEL 18V 18 Gauge Brad Nailer - Bare Tool",
+    "price": 299,
+    "url": "img/08_Gauge_Brad_Nailer_2746.jpg",
+    "itemNumber": "2746-20",
+    "color": "red"
+  },
+  {
+    "id": 9,
+    "title": "Milwaukee 2830-20 M18 FUEL 18V 7-1/4 Inch Rear Handle Circular Saw - Bare Tool",
+    "price": 269,
+    "url": "img/09_Circular_Saw_2830.jpg",
+    "itemNumber": "2830-20",
+    "color": "red"
+  },
+  {
+    "id": 10,
+    "title": "Milwaukee 2737B-20 M18 FUEL 18V Cordless Barrel Grip Jig Saw - Bare Tool",
+    "price": 199,
+    "url": "img/10_Jig_Saw_2737B.jpg",
+    "itemNumber": "2737B-20",
+    "color": "red"
+  },
+  {
+    "id": 11,
+    "title": "Milwaukee 2719-20 M18 FUEL 18V 7/8-Inch Cordless Hackzall - Bare Tool",
+    "price": 159,
+    "url": "img/11_Recip_Saw_2719.jpg",
+    "itemNumber": "2719-20",
+    "color": "red"
+  },
+  {
+    "id": 12,
+    "title": "Milwaukee 2729-20 M18 FUEL 18V Deep Cut Band Saw w/ Blade - Bare Tool",
+    "price": 349,
+    "url": "img/12_Deep_Cut_Band_Saw_2729.jpg",
+    "itemNumber": "2729-20",
+    "color": "red"
+  }
+]
