@@ -1,7 +1,5 @@
 # React App - Milwaukee Store
 
-## _Convinient visit task manager for hospitals_
-
 The Milwaukee Store website is a simple, quick, and responsive website built with the best principles of React.js, JavaScript technologies and Responsive Web Design.
 
 ## Tech
