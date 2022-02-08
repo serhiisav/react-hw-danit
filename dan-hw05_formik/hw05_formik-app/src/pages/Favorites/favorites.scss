@@ -6,8 +6,7 @@
 
 .favorite-list {
   padding-left: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto 50px;
   list-style: none;
   align-items: center;
   padding: 5px 10px;
@@ -17,7 +16,6 @@
 
 .favorite-item {
   position: relative;
-
   display: grid;
   grid-template-columns: 1fr;
   border: 1px solid #f64b4b50;
