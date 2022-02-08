@@ -16,13 +16,13 @@ function Header() {
                 <div className="header-wrap">
                     <div className="logo-wrap">
                         <NavLink style={({ isActive }) => isActive ? { borderBottom: "3px solid #ffffff" } : undefined} to='/products'>
-                            <img className="logo-header" src="/milwaukee-logo-1.svg" alt="logo" width='130' />
+                            <img className="logo-header" src="./milwaukee-logo-1.svg" alt="logo" width='130' />
                         </NavLink>
                     </div>
                     <div className="link-icon-wrap">
                         <div className="header-favorite-wrap">
                             <NavLink style={({ isActive }) => isActive ? { borderBottom: "3px solid #ffffff" } : undefined} to="favorites">
-                                <img src="/img/header-favorite.svg" alt="favorite star" />
+                                <img src="./img/header-favorite.svg" alt="favorite star" />
                             </NavLink>
                             <span className="header-favorite--count">{
                                 favoritesCount ? favoritesCount : null}</span>
@@ -30,7 +30,7 @@ function Header() {
 
                         <div className="header-cart-wrap">
                             <NavLink style={({ isActive }) => isActive ? { borderBottom: "3px solid #ffffff" } : undefined} to="cart">
-                                <img src="/img/header-cart.svg" alt="cart" />
+                                <img src="./img/header-cart.svg" alt="cart" />
                             </NavLink>
                             <span className="header-cart--count">{
                                 cartCount ? cartCount : null}</span>
