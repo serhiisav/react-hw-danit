@@ -29,7 +29,7 @@ function Card(props) {
                                     "favorite-card"
                             }
                             xmlns="http://www.w3.org/2000/svg"
-                            width="20" height="20"
+                            width="27" height="27"
                             fill="#f6f6f6"
                             stroke="#666" strokeWidth="1"
                             viewBox="0 0 30 30">
