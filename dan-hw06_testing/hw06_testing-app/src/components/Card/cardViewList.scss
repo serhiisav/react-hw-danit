@@ -1,0 +1,49 @@
+@import "../../variables";
+
+.card-description--view-list {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+  @media (min-width: 481px) {
+    align-content: space-between;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(2 max-content);
+    align-items: end;
+    text-align: left;
+  }
+}
+
+.star-wrap--view-list {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.card-image-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+  & > img {
+    display: block;
+  }
+}
+
+.title-card--view-list {
+  color: #666;
+  margin: 0;
+  align-self: start;
+  @media (min-width: 481px) {
+    grid-column: span 3;
+    padding: 5px 40px 5px 0;
+  }
+}
+
+.products-view-list-btn-cart {
+  @include btn-card();
+  min-width: 180px;
+  align-self: end;
+  justify-self: center;
+  box-sizing: border-box;
+}

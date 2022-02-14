@@ -1,0 +1,35 @@
+@import "../../variables";
+
+.order-wrap {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 5px 10px;
+}
+.order-title {
+  color: #666;
+}
+.order-list {
+  list-style: none;
+  color: #333;
+}
+.order-info {
+  font-style: italic;
+  font-weight: bold;
+}
+.order-item {
+  display: grid;
+  grid-template-columns: minmax(max-content, 1fr) 5fr max-content;
+  & > p {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.home-btn-wrap {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+}

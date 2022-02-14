@@ -1,0 +1,18 @@
+@import "../../variables";
+
+.card-description {
+  margin-bottom: 10px;
+}
+
+.title-card {
+  font-size: 20px;
+  color: #666;
+  margin-top: 15px;
+  margin-bottom: 0;
+  min-height: 105px;
+  height: 100%;
+}
+
+.products-btn-cart {
+  @include btn-card();
+}

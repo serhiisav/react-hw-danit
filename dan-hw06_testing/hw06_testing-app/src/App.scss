@@ -1,0 +1,50 @@
+@import "./variables";
+
+.container {
+  height: 100%;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  @media (min-width: 481px) {
+    min-width: 481px;
+    width: 100%;
+    max-width: 992px;
+  }
+  @media (min-width: 993px) {
+    min-width: 993px;
+    width: 100%;
+    max-width: 1200px;
+  }
+}
+
+/* ---------loaders------ */
+
+.lds-dual-ring {
+  padding-top: 40vh;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid $bgAccentColor;
+  border-color: $bgAccentColor transparent $bgAccentColor transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.page-message {
+  padding-top: 40px;
+}

@@ -1,0 +1,106 @@
+@import "../../variables";
+
+.section-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.toggle-btn-wrapp {
+  padding: 5px 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section-cards-wrap {
+  width: 100%;
+  margin: 10px auto 50px;
+}
+
+.cards-list--view-module {
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: grid;
+  grid-template-columns: minmax(200px, 320px);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  row-gap: 10px;
+  column-gap: 10px;
+
+  @media (min-width: 530px) {
+    grid-template-columns: repeat(2, minmax(200px, 320px));
+  }
+  @media (min-width: 840px) {
+    grid-template-columns: repeat(3, minmax(200px, 320px));
+  }
+  @media (min-width: 1040px) {
+    grid-template-columns: repeat(4, minmax(200px, 320px));
+  }
+}
+
+.card-item--view-module {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 1px solid transparent;
+  & > img {
+    align-self: center;
+  }
+  &:hover {
+    border: 1px solid #f64b4b50;
+    box-shadow: 0 0 3px 3px #e7b7b750;
+    -moz-box-shadow: 0 0 3px 3px #e7b7b750;
+    -webkit-box-shadow: 0 0 3px 3px #e7b7b750;
+    transition: box-shadow 0.3s ease-out;
+  }
+}
+
+.cards-list--view-list {
+  padding-left: 0;
+  margin: 20px auto 50px;
+  list-style: none;
+  align-items: center;
+  padding: 5px 10px;
+  min-width: 300px;
+  max-width: 700px;
+}
+
+.card-item--view-list {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid #f64b4b50;
+  &:not(:last-child) {
+    border-bottom: none;
+  }
+  @media (min-width: 481px) {
+    grid-template-columns: min-content 1fr;
+  }
+}
+
+// ------------------
+
+.item-number-card {
+  color: #b6b6b6;
+  margin: 10px 0;
+}
+
+.star-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.favorite-card {
+  cursor: pointer;
+  display: block;
+  &.active {
+    fill: yellow;
+  }
+}
+
+.price-card {
+  color: #c00;
+}

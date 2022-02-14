@@ -1,0 +1,48 @@
+@import "../../variables";
+
+.header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 10;
+  background: $bgAccentColor;
+}
+
+.header-wrap {
+  margin: auto;
+  display: grid;
+  grid-template-columns: max-content min-content;
+  justify-content: space-between;
+  column-gap: 30px;
+  align-items: center;
+  padding: 5px 40px;
+}
+
+.link-icon-wrap {
+  display: flex;
+  column-gap: 30px;
+}
+
+.header-favorite-wrap {
+  cursor: pointer;
+  position: relative;
+}
+
+.header-cart-wrap {
+  position: relative;
+  height: 100%;
+}
+.header-favorite--count {
+  color: $colorCountHeader;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+.header-cart--count {
+  color: $colorCountHeader;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(100%, -50%);
+}
