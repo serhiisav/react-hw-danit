@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ModalButtons/> component renders correctly 1`] = `
+<div>
+  <button
+    class="btnModal"
+    id="btnModalOk"
+    type="button"
+  >
+    OK
+  </button>
+  <button
+    class="btnModal"
+    id="btnModalCancel"
+    type="button"
+  >
+    CANCEL
+  </button>
+</div>
+`;
+
+exports[`<ModalButtons/> component should render 1`] = `
+<div>
+  <button
+    class="btnModal"
+    id="btnModalOk"
+    type="button"
+  >
+    OK
+  </button>
+  <button
+    class="btnModal"
+    id="btnModalCancel"
+    type="button"
+  >
+    CANCEL
+  </button>
+</div>
+`;

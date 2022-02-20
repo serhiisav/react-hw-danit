@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal/> component should be displayed 1`] = `
+<div
+  class="modal-wrap active"
+>
+  <div
+    class="modal-body"
+    style="background-color: rgb(180, 108, 123);"
+  >
+    <div
+      class="modal-header"
+    >
+      <p>
+        Modal
+      </p>
+      <span
+        class="modal-close"
+      >
+        ✕
+      </span>
+    </div>
+    <p
+      class="modal-text"
+    >
+      Test text Modal
+    </p>
+    <div
+      class="modal-buttons-wrap"
+    >
+      <button
+        class="btnModal"
+        id="btnModalOk"
+        type="button"
+      >
+        OK
+      </button>
+      <button
+        class="btnModal"
+        id="btnModalCancel"
+        type="button"
+      >
+        CANCEL
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Modal/> component should not be displayed 1`] = `
+<div
+  class="modal-wrap"
+>
+  <div
+    class="modal-body"
+    style="background-color: rgb(180, 108, 123);"
+  >
+    <div
+      class="modal-header"
+    >
+      <p>
+        Modal
+      </p>
+      <span
+        class="modal-close"
+      >
+        ✕
+      </span>
+    </div>
+    <p
+      class="modal-text"
+    >
+      Test text Modal
+    </p>
+    <div
+      class="modal-buttons-wrap"
+    >
+      <button
+        class="btnModal"
+        id="btnModalOk"
+        type="button"
+      >
+        OK
+      </button>
+      <button
+        class="btnModal"
+        id="btnModalCancel"
+        type="button"
+      >
+        CANCEL
+      </button>
+    </div>
+  </div>
+</div>
+`;
